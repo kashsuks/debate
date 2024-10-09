@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate Motion Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Debate Motion Generator</h1>
+        <div class="options">
+            <label>
+                <input type="radio" name="motionType" value="policy" checked>
+                Policy
+            </label>
+            <label>
+                <input type="radio" name="motionType" value="value">
+                Value
+            </label>
+            <label>
+                <input type="radio" name="motionType" value="fun">
+                Fun
+            </label>
+        </div>
+        <button id="generateButton">Generate Motion</button>
+        <p id="motionDisplay"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
